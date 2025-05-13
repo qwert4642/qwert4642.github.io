@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Приют для животных</title>
+  <meta name="description" content="Помогите найти дом бездомным кошкам и собакам. Посмотрите, кто ищет семью.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Приют "Лапка Добра"</h1>
+    <p>Помогаем бездомным животным найти дом</p>
+  </header>
+
+  <section class="animals">
+    <h2>Наши подопечные</h2>
+    <div class="animal-card">
+      <img src="cat1.jpg" alt="Кошка Мурка">
+      <h3>Мурка</h3>
+      <p>Ласковая кошка, 2 года. Ищет заботливых хозяев.</p>
+    </div>
+    <div class="animal-card">
+      <img src="dog1.jpg" alt="Пёс Барсик">
+      <h3>Барсик</h3>
+      <p>Дружелюбный пёс, 4 года. Очень ждёт свою семью.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Связаться с нами</h2>
+    <form action="https://formspree.io/f/your-id" method="POST">
+      <input type="text" name="name" placeholder="Ваше имя" required>
+      <input type="email" name="email" placeholder="Ваш email" required>
+      <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Лапка Добра. Все права защищены.</p>
+  </footer>
+</body>
+</html>
